@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    /* overflow: hidden; */
+}
+
+.header {
+    background: rgba(229, 84, 115, 0.10);
+    width: 100%;
+}
+
+/* the banner section styles */
+
+.banner {
+    display: flex;
+    padding: 0px 200px;
+    
+}
+
+.banner-content {
+    margin-top: 170px;
+}
+
+.banner-title {
+    font-weight: 800;
+    width: 690px;
+    color:#272727;
+    font-size: 72px;
+}
+
+.banner-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(39, 39, 39, 0.60);
+    padding: 30px 0px;
+    width: 600px;
+}
+
+.btn-primary {
+    border: none;
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.banner-img {
+    width: 620px;
+    height: 800px;
+    padding-top: 50px;
+    padding-right: 110px;
+
+}
+
+
+/* the main section styles */
+main {
+    /* max-width: 1440px;
+    margin: 170px auto; */
+    border: 1px solid red;
+    margin: 50px 0px;
+    padding: 0px 200px;
+    
+}
