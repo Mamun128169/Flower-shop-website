@@ -75,6 +75,7 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    padding: 24px 0px;
 }
 
 
@@ -129,6 +130,23 @@ main {
     text-align: center;
     margin-top: 30px;
     color: #272727;
-    font-weight: 700;
-    font-size: 22px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+/* the optional part styles */
+
+.optional {
+    margin: 120px 200px;
+}
+
+.optional-container {
+    display: flex;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    justify-content: space-around;
+    text-align: center;
+    padding: 60px 120px;
+    gap: 90px;
 }
